@@ -1,4 +1,5 @@
 const express = require('express');
+
 const router = express.Router();
 
 const Athlete = require('../models/athlete');
@@ -24,7 +25,7 @@ router.get('/:id', async (req, res, next) => {
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
   const athlete = new Athlete(req.body);
   try {
     const savedAthlete = await athlete.save();

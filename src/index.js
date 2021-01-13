@@ -7,12 +7,3 @@ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
   /* eslint-enable no-console */
 });
-
-
-try {
-  // ejecucion de codigo que casi nunca falla
-} catch (error) {
-  jump();
-}
-
-console.log(`App listening on port ${PORT}`);

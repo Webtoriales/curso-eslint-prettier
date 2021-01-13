@@ -21,7 +21,7 @@ const athletesSchema = new mongoose.Schema({
     type: mongoose.Types.ObjectId,
     ref: 'Sport',
     required: true,
-  }]
+  }],
 });
 
 const Athlete = mongoose.model('Athlete', athletesSchema);

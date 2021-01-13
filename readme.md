@@ -1,7 +1,7 @@
 # Curso ESLint y Prettier
 
-## Agenda - 03 - Configurando Reglas
+## Agenda - 04 - Arreglando Errores
 
-#### Off, warning o error
-
-https://eslint.org/docs/user-guide/configuring#configuring-rules
+* Prevencion
+* Manualmente
+* En Masa

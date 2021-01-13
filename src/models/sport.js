@@ -4,12 +4,12 @@ const sportsSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   playersPerTeam: {
     type: Number,
-    required: false
-  }
+    required: false,
+  },
 });
 
 const Sport = mongoose.model('Sport', sportsSchema);
