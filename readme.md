@@ -1,7 +1,7 @@
 # Curso ESLint y Prettier
 
-## Agenda - 02 - Instalando y configurando ESLint
+## Agenda - 03 - Configurando Reglas
 
-* Instalar ESLint
-* Instalar Extension
-* Configurar ESLint
+#### Off, warning o error
+
+https://eslint.org/docs/user-guide/configuring#configuring-rules
