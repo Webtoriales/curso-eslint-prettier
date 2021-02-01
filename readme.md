@@ -1,7 +1,6 @@
 # Curso ESLint y Prettier
 
-## Agenda - 04 - Arreglando Errores
+## Agenda - 05 - Introduccion a Prettier
 
-* Prevencion
-* Manualmente
-* En Masa
+* Herramienta de Formateo de Codigo
+* Opinionada

@@ -1,23 +1,23 @@
-require('dotenv').config();
+require("dotenv").config();
 
-const express = require('express');
-const morgan = require('morgan');
-const helmet = require('helmet');
-const bodyParser = require('body-parser');
+const express = require("express");
+const morgan = require("morgan");
+const helmet = require("helmet");
+const bodyParser = require("body-parser");
 
-const middlewares = require('./middlewares');
+const middlewares = require("./middlewares");
 
-const api = require('./api');
+const api = require("./api");
 
 /* eslint-disable-next-line no-unused-vars */
-const db = require('./db');
+const db = require("./db");
 
 const app = express();
 
 app.use(helmet());
-app.use(morgan('tiny'));
+app.use(morgan("tiny"));
 app.use(bodyParser.json());
-app.use('/api', api);
+app.use("/api", api);
 
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
