@@ -1,6 +1,3 @@
 # Curso ESLint y Prettier
 
-## Agenda - 05 - Introduccion a Prettier
-
-* Herramienta de Formateo de Codigo
-* Opinionada
+## Agenda - 06 - Como configurar ESLint + Prettier (Parte 1)
